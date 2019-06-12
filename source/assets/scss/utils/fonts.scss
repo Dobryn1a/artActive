@@ -1,0 +1,53 @@
+// Fonts here
+// Muller был найден только в woff2, не стал конвертировать в другие форматы
+// OpenSans добавлен т.к. не ВО ВСЕХ системах он задается, два формата т.к. woff2 не везде подходит
+// HelveticaNeueCyrFONT
+@font-face {
+    font-family: "MullerBold";
+    src: url('/assets/fonts/MullerBold.woff2');
+}
+
+@font-face {
+    font-family: "MullerExtraBold";
+    src: url('/assets/fonts/MullerExtraBold.woff2');
+}
+
+@font-face {
+    font-family: "MullerHeavy";
+    src: url('/assets/fonts/MullerHeavy.woff2');
+}
+
+@font-face {
+    font-family: "MullerMedium";
+    src: url('/assets/fonts/MullerMedium.woff2');
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url('/assets/fonts/OpenSans-Bold.woff2');
+    src: url('/assets/fonts/OpenSans-Bold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "OpenSans-ExtraBold";
+    src: url('/assets/fonts/OpenSans-ExtraBold.woff2');
+    src: url('/assets/fonts/OpenSans-ExtraBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url('/assets/fonts/OpenSans-Italic.woff2');
+    src: url('/assets/fonts/OpenSans-Italic.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url('/assets/fonts/OpenSans-Regular.woff2');
+    src: url('/assets/fonts/OpenSans-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url('/assets/fonts/OpenSans-SemiBold.woff2');
+    src: url('/assets/fonts/OpenSans-SemiBold.ttf') format('ttf');
+}
